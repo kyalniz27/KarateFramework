@@ -1,0 +1,10 @@
+{
+  "jobId" : 3,
+  "jobTitle" : "SDET",
+  "jobDescription" : "To automate web application",
+  "experience" : [ "Java", "Python", "JS" ],
+  "project" : [ {
+    "projectName" : "BBVA",
+    "technology" : [ "Selenium", "Karate", "HP ALM" ]
+  } ]
+}
