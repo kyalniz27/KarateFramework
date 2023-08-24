@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_summary",{distinct_id:"97996384-687a-48c8-b1f7-fd36b864d2f9",karate_version:"1.4.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>Karate Summary Report</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">14</div>
+      <div id="nav-fail" class="bg-danger">4</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Features</div>
+  </div>
+  <div id="nav-date">
+    <div>2023-08-16 06:54:20 AM</div>
+  </div>
+</div>
+
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <a href="karate-timeline.html">Timeline</a>
+        </div>
+        <table class="features-table table table-sm">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Title</th>
+              <th class="num">Passed</th>
+              <th class="num">Failed</th>
+              <th class="num">Scenarios</th>
+              <th class="num">Time (ms)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.CreateJobEntry.html">com/api/automation/CreateJobEntry.feature</a>
+              </td>
+              <td>How to use job entry as a common method</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1008</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.CreateJobEntryWithVariables.html">com/api/automation/CreateJobEntryWithVariables.feature</a>
+              </td>
+              <td>How to use job entry as a common method</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1</td>
+              <td class="num">5</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.getRequest.FuzzyMatcher.html">com/api/automation/getRequest/FuzzyMatcher.feature</a>
+              </td>
+              <td>JSON array validation</td>
+              <td class="num">3</td>
+              <td class="num">0</td>
+              <td class="num">3</td>
+              <td class="num">2600</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.getRequest.GetRequest.html">com/api/automation/getRequest/GetRequest.feature</a>
+              </td>
+              <td>Testing the get endpoint of the application</td>
+              <td class="num">4</td>
+              <td class="num">0</td>
+              <td class="num">4</td>
+              <td class="num">2951</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.getRequest.JsonArrayValidation.html">com/api/automation/getRequest/JsonArrayValidation.feature</a>
+              </td>
+              <td>JSON array validation</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">694</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.getRequest.jsonPathExpression.html">com/api/automation/getRequest/jsonPathExpression.feature</a>
+              </td>
+              <td>How to do json path expression</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1328</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.getRequest.ResponseMatcher.html">com/api/automation/getRequest/ResponseMatcher.feature</a>
+              </td>
+              <td>Validating the get endpoint with response keyword</td>
+              <td class="num">2</td>
+              <td class="num">0</td>
+              <td class="num">2</td>
+              <td class="num">855</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.getRequest.SampleFeatureFile.html">com/api/automation/getRequest/SampleFeatureFile.feature</a>
+              </td>
+              <td>Testing the get endpoint of the application</td>
+              <td class="num">0</td>
+              <td class="num">2</td>
+              <td class="num">2</td>
+              <td class="num">0</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.getRequest.UsingExternalFile.html">com/api/automation/getRequest/UsingExternalFile.feature</a>
+              </td>
+              <td>How to use external file</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">278</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.getRequest.Variables.html">com/api/automation/getRequest/Variables.feature</a>
+              </td>
+              <td>How to create variables</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">72</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.getRequest.XmlValidation.html">com/api/automation/getRequest/XmlValidation.feature</a>
+              </td>
+              <td>XML array validation</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">136</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.postRequest.CreateJobEntry.html">com/api/automation/postRequest/CreateJobEntry.feature</a>
+              </td>
+              <td>How to create resources in the application</td>
+              <td class="num">2</td>
+              <td class="num">0</td>
+              <td class="num">2</td>
+              <td class="num">633</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.postRequest.dataDriven.postDataDriven.html">com/api/automation/postRequest/dataDriven/postDataDriven.feature</a>
+              </td>
+              <td>How to do scenario outline</td>
+              <td class="num">5</td>
+              <td class="num">1</td>
+              <td class="num">6</td>
+              <td class="num">1192</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.postRequest.EmbeddedExpression.html">com/api/automation/postRequest/EmbeddedExpression.feature</a>
+              </td>
+              <td>How to use embedded expression</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">127</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.postRequest.fileUpload.FileUpload.html">com/api/automation/postRequest/fileUpload/FileUpload.feature</a>
+              </td>
+              <td>How to file upload in Karate framework</td>
+              <td class="num">2</td>
+              <td class="num">0</td>
+              <td class="num">2</td>
+              <td class="num">1676</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.postRequest.JSTestExecuter.html">com/api/automation/postRequest/JSTestExecuter.feature</a>
+              </td>
+              <td>How to run JS functions</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">26</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.postRequest.SchemaValidation.html">com/api/automation/postRequest/SchemaValidation.feature</a>
+              </td>
+              <td>How to validate schema</td>
+              <td class="num">2</td>
+              <td class="num">0</td>
+              <td class="num">2</td>
+              <td class="num">596</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.putRequest.updateJobEntry.html">com/api/automation/putRequest/updateJobEntry.feature</a>
+              </td>
+              <td>How to test update endpoint in the application</td>
+              <td class="num">4</td>
+              <td class="num">1</td>
+              <td class="num">5</td>
+              <td class="num">1254</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
+
