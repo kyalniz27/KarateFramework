@@ -12,7 +12,7 @@ public class ParallelBuilder {
 	public void ExecuteKarateTests() {
 		Builder runner = new Builder();
 		runner.path("classpath:com/api/automation");
-		Results results = runner.parallel(10);
+		Results results = runner.parallel(5);
 		System.out.println("Total feature ==> " + results.getFeaturesTotal());
 		System.out.println("Total scenarios ==> " + results.getScenariosTotal());
 		System.out.println("Total passed ==> " + results.getScenariosPassed());
